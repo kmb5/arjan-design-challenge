@@ -54,4 +54,4 @@ class WeatherServiceFactory:
 
 if __name__ == "__main__":
     weather_service = WeatherServiceFactory.create_weather_service()
-    weather_service.retrieve_forecast(city="Utrecht")
+    weather_service.print_current_temperature(city="Utrecht")
