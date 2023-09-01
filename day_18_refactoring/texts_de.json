@@ -1,0 +1,26 @@
+{
+    "help_city": "Name der Stadt, für die Sie Wetterinformationen abrufen möchten",
+    "help_condition": "Wetterbedingungen, die angezeigt werden sollen. Wählen Sie zwischen 'all' oder 'a', 'temperature' oder 't', 'wind' oder 'w', 'humidity' oder 'h'",
+    "help_api_key": "API-Schlüssel für die OpenWeatherMap-API",
+    "cli_description": "Aktuelle Wetterinformationen für eine Stadt abrufen",
+    "info_temperature": "Die aktuelle Temperatur in {city} beträgt {temperature:.1f} °C",
+    "info_wind": "Die aktuelle Windgeschwindigkeit in {city} beträgt {wind_speed:.1f} m/s aus Richtung {wind_direction} Grad",
+    "info_humidity": "Die aktuelle Luftfeuchtigkeit in {city} beträgt {humidity:.1f} %.",
+    "error_no_data": "Keine Daten für {city} gefunden. Haben Sie möglicherweise vergessen, den API-Schlüssel mit dem --api-key-Schalter anzugeben?",
+    "conditions_temperature": [
+        "temperature",
+        "t"
+    ],
+    "conditions_wind": [
+        "wind",
+        "w"
+    ],
+    "conditions_humidity": [
+        "humidity",
+        "h"
+    ],
+    "conditions_all": [
+        "all",
+        "a"
+    ]
+}

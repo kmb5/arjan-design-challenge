@@ -1,0 +1,26 @@
+{
+    "help_city": "A város neve, amelynek az időjárását le szeretné kérdezni",
+    "help_condition": "Az időjárási feltételek, amelyeket meg szeretne jeleníteni. Válasszon a 'minden' vagy 'm', 'homerseklet' vagy 'h', 'szel' vagy 'sz', 'para' vagy 'p' lehetőségek közül",
+    "help_api_key": "Az OpenWeatherMap API-hoz tartozó API-kulcs",
+    "cli_description": "Az adott város aktuális időjárásának lekérdezése",
+    "info_temperature": "Az aktuális hőmérséklet {city}-ben {temperature:.1f} °C",
+    "info_wind": "Az aktuális szélsebesség {city}-ben {wind_speed:.1f} m/s, {wind_direction} fokos irányból fúj",
+    "info_humidity": "Az aktuális páratartalom {city}-ben {humidity:.1f} %.",
+    "error_no_data": "Nincs adat {city}-ről. Talán elfelejtette megadni az API-kulcsot a --api-key kapcsolóval?",
+    "conditions_temperature": [
+        "homerseklet",
+        "h"
+    ],
+    "conditions_wind": [
+        "szel",
+        "sz"
+    ],
+    "conditions_humidity": [
+        "para",
+        "p"
+    ],
+    "conditions_all": [
+        "minden",
+        "m"
+    ]
+}
