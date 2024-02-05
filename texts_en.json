@@ -1,0 +1,26 @@
+{
+    "help_city": "El nombre de la ciudad para la que desea obtener información meteorológica",
+    "help_condition": "Las condiciones meteorológicas que desea mostrar. Elija entre 'all' o 'a', 'temperature' o 't', 'wind' o 'w', 'humidity' o 'h'",
+    "help_api_key": "La clave de API para la API de OpenWeatherMap",
+    "cli_description": "Obtener información meteorológica actual para una ciudad",
+    "info_temperature": "La temperatura actual en {city} es de {temperature:.1f} °C",
+    "info_wind": "La velocidad del viento actual en {city} es de {wind_speed:.1f} m/s desde la dirección {wind_direction} grados",
+    "info_humidity": "La humedad actual en {city} es del {humidity:.1f} %.",
+    "error_no_data": "No se encontraron datos para {city}. ¿Olvidó proporcionar la clave de API con el interruptor --api-key?",
+    "conditions_temperature": [
+        "temperatura",
+        "t"
+    ],
+    "conditions_wind": [
+        "viento",
+        "w"
+    ],
+    "conditions_humidity": [
+        "humedad",
+        "h"
+    ],
+    "conditions_all": [
+        "todo",
+        "a"
+    ]
+}
